@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "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"
+API_KEY = "\YOUR_OPENROUTER_API_KEY"    
 
 def get_ai_response(user_message):
     try:
