@@ -35,6 +35,18 @@ Open: http://127.0.0.1:5000/
 
 ---
 
+## API Key Setup
+
+Before running the project, add your own OpenRouter API key in `app.py`:
+
+```python
+API_KEY = "YOUR_API_KEY"
+```
+
+Replace `"YOUR_API_KEY"` with your actual OpenRouter API key.
+
+---
+
 ## Note
 
 This chatbot provides general guidance only. Always consult a veterinarian.
