@@ -1,9 +1,14 @@
-# Animal Disease AI Chatbot
+<img width="1338" height="839" alt="image" src="https://github.com/user-attachments/assets/13b612e4-4228-4f69-a341-1e7b9b1598d3" /># Animal Disease AI Chatbot
 
 This project is an **AI chatbot module** from the main system:
 https://github.com/pratik-singh-03/Animal-Disease-Detection-System
 
 It can also be used **independently** to provide basic information about animal diseases.
+
+
+<img width="1338" height="839" alt="image" src="https://github.com/user-attachments/assets/5790604c-cda7-479d-bd49-a27b4748b897" />
+
+
 
 ---
 
