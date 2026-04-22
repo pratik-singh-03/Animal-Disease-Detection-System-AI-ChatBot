@@ -6,11 +6,15 @@ import os
 app = Flask(__name__)
 CORS(app)  # allow frontend requests
 
+<<<<<<< HEAD
 # Secure API key
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 if not API_KEY:
     raise ValueError("API key not found. Set OPENROUTER_API_KEY in environment variables.")
+=======
+API_KEY = "ENTER YOUR OPENROUTER API KEY"
+>>>>>>> 0f08e7914272dccb119c979d3f301f91c9e028a9
 
 def get_ai_response(user_message):
     try:
@@ -78,4 +82,8 @@ def chat():
 
 # Production run
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run(host="0.0.0.0", port=10000)
+=======
+    app.run(debug=True)
+>>>>>>> 0f08e7914272dccb119c979d3f301f91c9e028a9

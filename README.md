@@ -5,6 +5,11 @@ https://github.com/pratik-singh-03/Animal-Disease-Detection-System
 
 It can also be used **independently** to provide basic information about animal diseases.
 
+
+<img width="1338" height="839" alt="image" src="https://github.com/user-attachments/assets/5790604c-cda7-479d-bd49-a27b4748b897" />
+
+
+
 ---
 
 ## Features
@@ -32,6 +37,18 @@ python app.py
 ```
 
 Open: http://127.0.0.1:5000/
+
+---
+
+## API Key Setup
+
+Before running the project, add your own OpenRouter API key in `app.py`:
+
+```python
+API_KEY = "YOUR_API_KEY"
+```
+
+Replace `"YOUR_API_KEY"` with your actual OpenRouter API key.
 
 ---
 
